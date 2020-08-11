@@ -12,9 +12,9 @@
 ######################################################
 
 ######################################################
-### i3bar Color Settings ###
+### i3 Color Settings ###
 ######################################################
-#i3-wm.bar.background.color: "#002b36"     
+#i3-wm.client.focused.color.border: "#002b36"      
 #i3-wm.client.focused.color.background: "#586e75"
 #i3-wm.client.focused.color.text: "#fdf6e3"
 #i3-wm.client.focused.color.indicator: "#268bd2"
@@ -35,7 +35,7 @@
 #i3-wm.client.urgent.color.indicator: "#002b36"
  
  
-### More Bar Coloring ###
+### i3bar Color ###
  
 #i3-wm.bar.background.color: "#002b36"
 #i3-wm.bar.statusline.color: "#93a1a1"
