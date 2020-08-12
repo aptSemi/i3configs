@@ -1,4 +1,4 @@
-### Semi Gruvbox i3 colors ###
+### Semi i3 colors ###
 ### twitter: @rm_semi ###
 
 ######################################################
@@ -6,12 +6,13 @@
 ######################################################
 
 i3-wm.bar.position: top
+#i3-wm.bar.stripworkspacenumbers: yes
+
 
 ######################################################
+#### i3 Color Settings ####
+######################################################
 
-######################################################
-### i3bar Color Settings ###
-######################################################
 #i3-wm.client.focused.color.border: "#002b36"     
 #i3-wm.client.focused.color.background: "#586e75"
 #i3-wm.client.focused.color.text: "#fdf6e3"
@@ -32,30 +33,29 @@ i3-wm.bar.position: top
 #i3-wm.client.urgent.color.text: "#fdf6e3"
 #i3-wm.client.urgent.color.indicator: "#002b36"
 
-
-### i3bar Color ###
+######################################################
+#### i3bar Color ####
+######################################################
 
 i3-wm.bar.background.color: "#181818"
-#i3-wm.bar.statusline.color: "#93a1a1"
-i3-wm.bar.separator.color: "#5E110E"
+i3-wm.bar.statusline.color: "#ebdbb2"
+i3-wm.bar.separator.color: "#458588"
 
-i3-wm.bar.workspace.focused.border.color: "#330908"
-i3-wm.bar.workspace.focused.background.color: "#330908"
-#i3-wm.bar.workspace.focused.text.color: "#eee8d5"
-#i3-wm.bar.workspace.active.border.color: "#073642"
+i3-wm.bar.workspace.focused.border.color: "#458588"
+i3-wm.bar.workspace.focused.background.color: "#4a0d0b"
+i3-wm.bar.workspace.focused.text.color: "#ebdbb2"
+i3-wm.bar.workspace.active.border.color: "#ebdbb2"
 #i3-wm.bar.workspace.active.background.color: "#073642"
-i3-wm.bar.workspace.active.text.color: "#EBDBB2"
-#i3-wm.bar.workspace.inactive.border.color: "#002b36"
-#i3-wm.bar.workspace.inactive.background.color: "#002b36"
-i3-wm.bar.workspace.inactive.text.color: "#444444"
+i3-wm.bar.workspace.active.text.color: "#ebdbb2"
+i3-wm.bar.workspace.inactive.border.color: "#181818"
+i3-wm.bar.workspace.inactive.background.color: "#181818"
+i3-wm.bar.workspace.inactive.text.color: "#5e110e"
 #i3-wm.bar.workspace.urgent.border.color: "#dc322f"
 #i3-wm.bar.workspace.urgent.background.color: "#dc322f"
 
-######################################################
-
 
 ######################################################
-### WORKSPACES NAMES ###
+#### WORKSPACES NAMES ####
 ## This functionality currently not working in Xresources ##
 ######################################################
 
@@ -79,4 +79,9 @@ i3-wm.bar.workspace.inactive.text.color: "#444444"
 #i3-wm.workspace.18.name "18"
 #i3-wm.workspace.19.name "19"
 
-######################################################
+
+##########################
+#### Fonts ####
+##########################
+
+#i3-wm.font pango:Source Code Pro Medium 13
