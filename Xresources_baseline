@@ -1,4 +1,4 @@
-### Semi Gruvbox i3 colors ###
+### Semi i3 colors ###
 ### twitter: @rm_semi ###
 
 ### Uncomment any lines you wish, to override settings, and change color codes to your desired colors ###
@@ -58,7 +58,6 @@
 
 ######################################################
 ### WORKSPACES NAMES ###
-## This functionality currently not working in Xresources ##
 ######################################################
 
 i3-wm.workspace.01.name: 1: web
