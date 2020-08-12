@@ -5,7 +5,7 @@
 #define color_base02   #292B30
 #define color_base01   #5e110e (changes active window border color)
 #define color_base00   #CBCCC6
-#define color_base0    #ebdbb2 (this line changes bar icon colors
+#define color_base0    #ebdbb2 (this line changes bar icon colors)
 #define color_base1    #5e110e (changes bar info color)
 #define color_base2    #F28779
 #define color_base3    #FFFFFF
@@ -22,3 +22,6 @@
 #define color_ltgreen  #A6CC70
 #define color_ltyellow #FFE6B3
 #define color_ltcyan   #5CCFE6
+
+
+
