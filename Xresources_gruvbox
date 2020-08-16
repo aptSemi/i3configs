@@ -1,6 +1,5 @@
-### Semi i3 colors ###
-### twitter: @rm_semi ###
-
+######################################################
+### Semi i3 colors ### ### twitter: @rm_semi ### 
 ######################################################
 #### MISC SETTINGS ####
 ######################################################
@@ -37,41 +36,49 @@ i3-wm.bar.position: top
 #### i3bar Color ####
 ######################################################
 
-i3-wm.bar.background.color: "#181818"
+i3-wm.bar.background.color: "#111111"
+#i3-wm.bar.background.color: "#040E22"
+i3-wm.bar.separator.color: "#B16286"
+#i3-wm.bar.separator.color: "#458588"
 i3-wm.bar.statusline.color: "#ebdbb2"
-i3-wm.bar.separator.color: "#458588"
 
-i3-wm.bar.workspace.focused.border.color: "#458588"
-i3-wm.bar.workspace.focused.background.color: "#4a0d0b"
-i3-wm.bar.workspace.focused.text.color: "#ebdbb2"
-i3-wm.bar.workspace.active.border.color: "#ebdbb2"
-#i3-wm.bar.workspace.active.background.color: "#073642"
-i3-wm.bar.workspace.active.text.color: "#ebdbb2"
-i3-wm.bar.workspace.inactive.border.color: "#181818"
-i3-wm.bar.workspace.inactive.background.color: "#181818"
-i3-wm.bar.workspace.inactive.text.color: "#5e110e"
+i3-wm.bar.workspace.focused.border.color: "#111111"
+#i3-wm.bar.workspace.focused.border.color: "#040E22"
+i3-wm.bar.workspace.focused.background.color: "#111111"
+#i3-wm.bar.workspace.focused.background.color: "#040E22"
+i3-wm.bar.workspace.focused.text.color: "#EBDBB2"
+#i3-wm.bar.workspace.focused.text.color: "#542239"
+
+#i3-wm.bar.workspace.active.border.color: "#542239"
+#i3-wm.bar.workspace.active.background.color: "#542239"
+#i3-wm.bar.workspace.active.text.color: "#ebdbb2"
+
+i3-wm.bar.workspace.inactive.border.color: "#111111"
+#i3-wm.bar.workspace.inactive.border.color: "#040E22"
+i3-wm.bar.workspace.inactive.background.color: "#111111"
+#i3-wm.bar.workspace.inactive.background.color: "#040E22"
+i3-wm.bar.workspace.inactive.text.color: "#458588"
+#i3-wm.bar.workspace.inactive.text.color: "#3B4E64"
+
 #i3-wm.bar.workspace.urgent.border.color: "#dc322f"
 #i3-wm.bar.workspace.urgent.background.color: "#dc322f"
 
 
 ######################################################
-#### WORKSPACES NAMES ####
-## This functionality currently not working in Xresources ##
+#### Workspace Names ####
 ######################################################
 
-i3-wm.workspace.01.name: 1: web
-i3-wm.workspace.02.name: 2: term
-i3-wm.workspace.03.name: 3: file
-i3-wm.workspace.04.name: 4: docs
-i3-wm.workspace.05.name: 5: chat
-i3-wm.workspace.06.name: 6: code
-i3-wm.workspace.07.name: 7: vms
-i3-wm.workspace.08.name: 8: media
-i3-wm.workspace.09.name: 9: misc
+i3-wm.workspace.01.name: 1: {web}
+i3-wm.workspace.02.name: 2: {term}
+i3-wm.workspace.03.name: 3: {file}
+i3-wm.workspace.04.name: 4: {docs}
+i3-wm.workspace.05.name: 5: {chat}
+i3-wm.workspace.06.name: 6: {code}
+i3-wm.workspace.07.name: 7: {vm}
+i3-wm.workspace.08.name: 8: {media}
+i3-wm.workspace.09.name: 9: {misc}
 
 
 ##########################
 #### Fonts ####
 ##########################
-
-#i3-wm.font pango:Source Code Pro Medium 13
