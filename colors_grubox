@@ -1,7 +1,7 @@
 
 /etc/regolith/styles/lascaille ~ sudo vim colors
 
-#define color_base03   #1F2430
+#define color_base03   #1F2430 (inactive window border color)
 #define color_base02   #292B30
 #define color_base01   #542239 (changes active window border color)
 #define color_base00   #CBCCC6
